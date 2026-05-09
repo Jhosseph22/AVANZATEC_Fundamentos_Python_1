@@ -1,0 +1,8 @@
+# El bucle for tiene una variante muy especial que puede procesar las listas de manera muy efectiva - echemos un vistazo a eso.
+my_list = [10000, 15000, 85000, 30000, 50000]
+total = 0
+
+for i in range(len(my_list)):
+    total += my_list[i]
+
+print(total)
