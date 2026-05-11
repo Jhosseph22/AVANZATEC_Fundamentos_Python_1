@@ -1,0 +1,5 @@
+conter = 0
+for i in range(4):
+    var = int(input("Introduce un numero: "))
+    conter += var
+print("los valores ingresados suman:", conter)
