@@ -1,0 +1,40 @@
+# Las listas son un tipo de dato en python que se utiliza para almacenar multiples objetos, en una coleccion ordenada y mutable de elemtos separados por una coma, entre corchetes, por ejemplo:
+my_list = [1, None, True, "Soy una cadena", 256, 0]
+
+print(*my_list, sep="\n")
+
+# Las listas se pueden indexar y actualizar, por ejemplo: 
+my_list = [1, None, True, 'Soy una cadena', 256, 0]
+print(my_list[3])  # output: Soy una cadena
+print(my_list[-1])  # output: 0
+
+my_list[1] = '?'
+print(my_list)  # output: [1, '?', True, 'Soy una cadena', 256, 0]
+
+my_list.insert(0, "primero")
+my_list.append("último")
+print(my_list)  # output: ['primero', 1, '?', True, 'Soy una cadena', 256, 0, 'último']
+
+# Las lsitas pueden estar anidadas, es decir, pueden contener otras listas como elementos. Por ejemplo:
+my_list = [1, 'a', ["lista", 64, [0, 1], False]]
+
+# lOS elementos de una lista se pueden eliminar, por ejemplo:
+my_list = [1, 2, 3, 4]
+del my_list[2]
+print(my_list)  # output: [1, 2, 4]
+
+del my_list  # borra la lista entera
+
+# .Las listas pueden ser iteradas mediante el uso del bucle for, por ejemplo:
+my_list = ["blanco", "purpura", "azul", "amarillo", "verde"]
+
+for color in my_list:
+    print(color)
+
+# La función len() se puede usar para verificar la longitud de la lista, por ejemplo:
+my_list = ["blanco", "purpura", "azul", "amarillo", "verde"]
+print(len(my_list))  # output 5
+
+del my_list[2]
+print(len(my_list))  # output 4
+

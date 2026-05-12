@@ -1,0 +1,15 @@
+conter = 0
+for i in range(4):
+    var = int(input("Introduce un numero: "))
+    conter += var
+print("los valores ingresados suman:", conter)
+
+# range hace que el ciclo for se repita la cantidad de veces que contiene
+
+
+# En el ciclo white se repite mientras la condición sea verdadera, en este caso, mientras el contador sea menor a 4
+contador = 0
+while contador < 1000:
+    dor = int(input("Introduce un numero: "))
+    contador += dor
+print("los valores ingresados suman:", contador)
