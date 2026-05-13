@@ -22,6 +22,11 @@ print("Lista original:", my_list)
 my_list.sort()
 print(my_list)
 
+# Se puede usar el metodo sort() para ordenar la lista de forma ascendente, o se puede usar el argumento reverse=True para ordenar la lista de forma descendente. Por ejemplo:
+my_list = [8, 10, 6, 2, 4]
+print("Lista original:", my_list)
+my_list.sort(reverse=True)
+print(my_list)
 
  
 
